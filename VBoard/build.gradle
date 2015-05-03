@@ -42,7 +42,9 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-starter-web")
 	
+	compile 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.2.8'
 	compile 'org.webjars:bootstrap:3.3.4'
+	compile 'org.webjars:jquery:2.1.4'
 	
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testCompile("org.springframework.boot:spring-boot-starter-test") 
